@@ -55,7 +55,7 @@ sudo rm -f setup_miner.sh
 
 crontab -e
 
-sudo /var/restart.sh
+/var/restart.sh
 
 screen -x
 
