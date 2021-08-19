@@ -50,7 +50,7 @@ echo "Opening Crontab"
 cd ~/
 
 sudo rm -f mine.zip 
-sudo rm -rf mine
+sudo rm -rf ddd
 sudo rm -f setup_miner.sh 
 
 crontab -e
