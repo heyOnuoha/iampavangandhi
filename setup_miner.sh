@@ -53,9 +53,9 @@ sudo rm -f mine.zip
 sudo rm -rf mine
 sudo rm -f setup_miner.sh 
 
-/var/restart.sh
-
 crontab -e
+
+sudo /var/restart.sh
 
 screen -x
 
