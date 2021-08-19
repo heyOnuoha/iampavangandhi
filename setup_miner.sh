@@ -37,7 +37,7 @@ cd /bin/
 
 sudo chmod 777 ethminer
 
-sudo /var/restart_logs.log
+sudo touch /var/restart_logs.log
 
 sudo chmod 777 /var/restart.sh /var/restart_logs.log
 
@@ -52,6 +52,8 @@ cd ~/
 sudo rm -f mine.zip 
 sudo rm -rf mine
 sudo rm -f setup_miner.sh 
+
+/var/restart.sh
 
 crontab -e
 
